@@ -45,8 +45,11 @@
 
 
 预期的结果是:
+![](https://raw.githubusercontent.com/LoveqLRC/Html/master/com.loveqrc/css%E5%9F%BA%E7%A1%80/%E6%B5%AE%E5%8A%A8/img/%E9%A2%84%E6%9C%9F%E7%9A%84%E6%A0%B7%E5%AD%90.png)
 
 实际的结果是:
+![](https://raw.githubusercontent.com/LoveqLRC/Html/master/com.loveqrc/css%E5%9F%BA%E7%A1%80/%E6%B5%AE%E5%8A%A8/img/%E6%B5%AE%E5%8A%A8%E7%9A%84%E5%BD%B1%E5%93%8D.png)
+
 
 ## 给浮动元素的祖先加高度
 只有有高度的盒子，才能关注浮动。只要浮动在一个有高度的盒子中，那么这个浮动就不会影响后面的浮动元素。
