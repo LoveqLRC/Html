@@ -4,15 +4,140 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
-        .nav {
-            background-color: #fff;
+        * {
+            margin: 0;
+            padding: 0;
         }
+
+        .header {
+            background: #191D3A;
+            height: 58px;
+        }
+
+        .inner_c {
+            width: 1000px;
+            height: 58px;
+            margin: 0 auto;
+        }
+
+        .header .logo {
+            float: left;
+            padding-left: 12px;
+            margin-right: 39px;
+            width: 174px;
+            height: 58px;
+        }
+
+        .header .logo a {
+            display: block;
+            background: url("images/logo.png") no-repeat;
+            text-indent: -999em;
+            height: 58px;
+        }
+
+        .header .nav {
+            float: left;
+            width: 607px;
+            height: 58px;
+        }
+
+        .header .nav ul {
+            list-style: none;
+        }
+
+        .header .nav ul li {
+            float: left;
+            width: 100px;
+            height: 58px;
+            border-left: 1px solid #252947;
+        }
+
+        .header .nav ul li.last {
+            border-right: 1px solid #252947;
+        }
+
+        .header .nav ul li a {
+            display: block;
+            text-align: center;
+            line-height: 58px;
+            text-decoration: none;
+            color: #818496;
+            font-size: 14px;
+        }
+
+        .header .nav ul li a:hover {
+            background-color: #252947;
+            color: #E2E4ED;
+        }
+
+        .header .nav ul li.current a {
+            background-color: #252947;
+            color: #E2E4ED;
+        }
+
+        .header .jrwm {
+            float: left;
+            padding-top: 12px;
+            padding-left: 48px;
+
+        }
+
+        .header .jrwm a {
+            display: block;
+            width: 98px;
+            height: 32px;
+            background-color: #38B774;
+            border: 1px solid #3ACA7A;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 32px;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+        }
+
+        .header .jrwm a:hover {
+            background-color: #48C784;
+        }
+
+
     </style>
 </head>
 <body>
+<div class="header">
+    <div class="inner_c">
+        <h1 class="logo">
+            <a href="#">
+                博雅互动
+            </a>
+        </h1>
+        <div class="nav">
+            <ul>
+                <li class="current">
+                    <a href="#">网页首页</a>
+                </li>
+                <li>
+                    <a href="#">网页首页</a>
+                </li>
+                <li>
+                    <a href="#">网页首页</a>
+                </li>
+                <li>
+                    <a href="#">网页首页</a>
+                </li>
+                <li>
+                    <a href="#">网页首页</a>
+                </li>
+                <li class="last">
+                    <a href="#">网页首页</a>
+                </li>
+            </ul>
+        </div>
 
-<div class="nav">
-
+        <div class="jrwm">
+            <a href="#">加入我们</a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
