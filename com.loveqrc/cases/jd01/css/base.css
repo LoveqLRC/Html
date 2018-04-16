@@ -132,10 +132,28 @@ s, i, em {
 
 .dt {
     padding: 0 20px 0 10px;
+    position: relative;
+}
+
+.fl i {
+    font: 400 15px/15px "宋体";
+    position: absolute;
+    top: 13px;
+    right: 0;
+    height: 7px;
+    overflow: hidden;
+    width: 15px;
+}
+
+.fl s {
+    position: absolute;
+    top: -8px;
+    left: 0;
 }
 
 .nav .fr ul li {
     float: left;
+
 }
 
 /*导航栏结束*/
