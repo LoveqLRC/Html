@@ -171,7 +171,7 @@ s, i, em {
     position: absolute;
     width: 15px;
     height: 20px;
-    background: url(../images/sprite.png) no-repeat;
+    background: url(../../jd/images/sprite.png) no-repeat;
     left: 5px;
     top: 5px;
 }
@@ -193,7 +193,7 @@ s, i, em {
     top: 5px;
     width: 19px;
     height: 19px;
-    background: url(../images/close.png) no-repeat;
+    background: url(../../jd/images/close.png) no-repeat;
 }
 
 .close-banner:hover {
@@ -208,7 +208,7 @@ s, i, em {
     float: left;
     padding-top: 25px;
     position: relative;
-    background: url(../images/logo.png) no-repeat 0 25px;
+    background: url(../../jd/images/logo.png) no-repeat 0 25px;
 }
 
 .jd-a {
