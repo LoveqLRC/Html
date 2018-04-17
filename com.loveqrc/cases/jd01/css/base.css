@@ -181,3 +181,68 @@ s, i, em {
 }
 
 /*导航栏结束*/
+
+/*topbanner 开始*/
+.top-banner {
+    background-color: #8A25C6;
+}
+
+.tb {
+    position: relative;
+}
+
+.close-banner {
+    position: absolute;
+    background: url("../images/close.png") no-repeat;
+    right: 0;
+    top: 5px;
+    width: 19px;
+    height: 19px;
+}
+
+.close-banner:hover {
+    background-position: bottom;
+}
+
+/*topbanner 结束*/
+
+/*logo开始*/
+.logo {
+    width: 360px;
+    height: 75px;
+    float: left;
+    padding-top: 25px;
+    background: url("../images/logo.png") no-repeat 0 25px;
+    position: relative;
+}
+
+.jd-a {
+    display: block;
+    width: 270px;
+    height: 60px;
+    text-indent: -2000em;
+}
+
+.dbll {
+    position: absolute;
+    top: 10px;
+    left: 168px;
+}
+
+.search {
+    width: 538px;
+    height: 75px;
+    background-color: purple;
+    float: left;
+    padding-top: 25px;
+}
+
+.car {
+    width: 139px;
+    height: 34px;
+    background-color: blue;
+    float: right;
+    margin: 25px 65px 0 0;
+}
+
+/*logo结束*/
