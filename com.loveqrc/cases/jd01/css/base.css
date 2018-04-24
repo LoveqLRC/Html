@@ -231,18 +231,81 @@ s, i, em {
 
 .search {
     width: 538px;
-    height: 75px;
-    background-color: purple;
+    height: 35px;
+    /*background-color: purple;*/
     float: left;
     padding-top: 25px;
 }
 
+.search input {
+    width: 450px;
+    height: 32px;
+    border: 2px solid #B61D1D;
+    padding-left: 4px;
+    color: #666;
+    font: 14px/32px "microsoft yahei";
+    float: left;
+}
+
+.search button {
+    width: 80px;
+    height: 36px;
+    background-color: #B61D1D;
+    float: left;
+    font: 16px/36px "microsoft yahei";
+    color: #fff;
+    cursor: pointer;
+}
+
 .car {
-    width: 139px;
+    width: 96px;
+    padding-left: 43px;
+    border: 1px solid #DFDFDF;
+    line-height: 34px;
     height: 34px;
-    background-color: blue;
+    /*background-color: blue;*/
     float: right;
     margin: 25px 65px 0 0;
+    position: relative;
+}
+
+.icon1 {
+    width: 16px;
+    height: 13px;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+    background: url("../images/sprite.png") no-repeat -1px -59px;
+}
+
+.icon2 {
+    font: 400 13px/13px SimSun;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.icon3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    top: -4px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.hotwords {
+    width: 500px;
+    float: left;
+    padding: 7px 0;
+}
+
+.hotwords a {
+    margin-right: 6px;
 }
 
 /*logo结束*/
