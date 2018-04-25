@@ -130,7 +130,7 @@ s, i, em {
     height: 30px;
 }
 
-.dt,
+.shortcut .dt,
 .nav .fore {
     padding: 0 20px 0 10px;
     position: relative;
@@ -309,3 +309,69 @@ s, i, em {
 }
 
 /*logo结束*/
+
+/*footer开始*/
+.slogen {
+    background-color: #f5f5f5;
+    position: relative;
+    height: 54px;
+    padding: 20px 0;
+}
+
+.item {
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+
+.slogen1 {
+    margin-left: -608px;
+}
+
+.slogen2 {
+    margin-left: -302px;
+}
+
+.slogen4 {
+    margin-left: 302px;
+}
+
+.shopping dl {
+    float: left;
+    width: 198px;
+}
+
+.shopping dt,
+.coverage .dt {
+    font-size: 16px;
+    height: 28px;
+    font-family: "Microsoft YaHei";
+    padding-top: 10px;
+}
+
+.shopping dd {
+    height: 20px;
+}
+
+.coverage {
+    float: right;
+    width: 210px;
+    height: 165px;
+    background: url("../images/china.png") no-repeat left bottom;
+}
+
+.coverage .dd {
+    margin-top: 10px;
+}
+
+.coverage p {
+    line-height: 18px;
+}
+
+.looklook {
+    text-align: right;
+    margin-top: 5px;
+}
+
+/*footer结束*/
